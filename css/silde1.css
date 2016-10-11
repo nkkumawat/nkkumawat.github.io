@@ -33,6 +33,9 @@ body
 	top: 5%;
 	height: 50px;
 	width: 50px;
+	box-shadow: 0 0 10px white;
+	border-radius: 15px;
+	z-index: 50;
 }
 #Name
 {
@@ -114,11 +117,14 @@ body
 #readMore a,#myProjects a
 {
 	color: white;
-	position: absolute;
+	/*position: absolute;*/
 	font-family: sans-serif;
 	font-size: 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
 	text-decoration:none;
-	margin-left: -60px; 
+	margin-left: -95px; 
 	margin-top: 10px; 
 	text-align: center;
 }
@@ -209,13 +215,13 @@ body
 }
 
 
-/*w========================Slide 3============*/
+/*w========================Slide 3===========================================================*/
 #Slide3
 {
 	position: absolute;
 	left: 0;
 	top: 200%;
-	height: 100%;
+	height: 150%;
 	width: 100%;
 	background-color: #1A1932;
 }
@@ -235,4 +241,112 @@ body
 #tech strong
 {
 	font-size: 200%;
+}
+#Table
+{
+	position: absolute;
+	left: 20%;
+	top: 20%;
+	height: 10%;
+	width: 70%;
+	/*background-color: red;*/
+}
+.TableRow
+{
+	/*width: 100%;*/
+	/*position: relative;	*/
+	color: white;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 150%;
+	padding-left: 10px;
+}
+#other
+{
+	position: absolute;
+	left: 0;
+	top: 55%;
+	width: 100%;
+	height: 14%;
+	/*background-color: red;*/
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+
+}
+#other strong
+{
+	font-size: 200%;
+}
+#Table1
+{
+	position: absolute;
+	left: 10%;
+	top: 80%;
+	height: 10%;
+	width: 80%;
+	/*background-color: red;*/
+}
+
+
+/*=================silde4========================================================================*/
+#Slide4
+{
+	position: absolute;
+	left: 0;
+	top: 350%;
+	height: 100%;
+	width: 100%;
+	background-color: re;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=====================slide 5*/
+
+
+#Slide5
+{
+	position: absolute;left: 0;
+	height: 50%;
+	width: 100%;
+	top: 450%;
+	background-color: #1A1932;
+	color: white;
+	font-size: 280%;
+	text-align: center;
+}
+#Slide5 p
+{
+	font-size: 50%;
+}
+
+
+
+
+
+
+
+/*====================Slide6=================*/
+
+#Slide6
+{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	top: 500%;
+
 }
